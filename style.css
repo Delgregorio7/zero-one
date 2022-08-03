@@ -142,7 +142,7 @@ button#activate.pushed {
 	box-sizing: border-box;
 }
 
-.warning:after {
+/*.warning:after {
 	content: "OSC 2022";
 	color: white;
 	transform: rotate(90deg);
@@ -157,7 +157,7 @@ button#activate.pushed {
 	text-align: center;
 	padding: 1vmin;
 	text-shadow: 0 0 1px #000, 0 0 1px #000, 0 0 1px #000;
-}
+}*/
 
 
 
@@ -320,7 +320,7 @@ div#turn-off {
 }
 
 div#turn-off:before, div#turn-off:after {
-	content: "";
+	content: "OSC 2022";
 	position: fixed;
 	left: 0;
 	top: 0;
@@ -342,6 +342,7 @@ div#turn-off.close {
 div#turn-off.close:before, div#turn-off.close:after {
 	transition: height 0.1s ease 0.1s;
 	height: 49.75vh;
+	
 }
 
 
