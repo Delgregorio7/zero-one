@@ -112,7 +112,7 @@ button#activate.pushed {
 
 
 .grid {
-	background:repeating-linear-gradient(150deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 49px, rgb(255 255 255 / 10%) 50px ,rgb(0 0 0 / 30%) 51px , rgba(255,255,255,0) 55px ), repeating-linear-gradient(30deg, rgba(255,255,255,0) 0, rgba(255,255,255,0) 49px, rgb(255 255 255 / 10%) 50px ,rgb(0 0 0 / 30%) 51px , rgba(255,255,255,0) 55px );
+	background:url(bg.jpg) left fixed no-repeat; background-size:absolute;
 	position: fixed;
 	width: 200vw;
 	height: 150vh;
